@@ -1,0 +1,151 @@
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(153, 224, 224);
+  color: black;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: flex-start;
+}
+.inp{
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  text-indent: 20px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid grey;
+}
+.btn{
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgb(126, 240, 126);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: azure;
+}
+a{
+  color: purple;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+}
+
+.not-found{
+ width: 100%;
+ text-align: center;
+}
+.success{
+  color:green;
+  font-size: 20px;
+  opacity:1;
+}
+.invisible-msg{
+  width: 100%;
+  opacity: 0;
+}
+.error{
+  color:red;
+  font-size:20px;
+  opacity:1;
+}
+
+/* track page css */
+.track-container{
+  width: 100%;
+  background-color: rgb(169, 249, 211);
+  height: 100vh;
+  color: black;
+  padding: 30px;
+}
+.search-inp{
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgb(115, 113, 113);
+  font-size: 20px;
+  border-radius: 8px;
+}
+.search{
+  position: relative;
+}
+.search-results{
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  background-color: aliceblue;
+  margin-top: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.item{
+  padding: 10px;
+  background-color: rgb(160, 232, 160);
+  margin-top: 5px;
+  font-size: 20px;
+}
+.food{
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+}
+.food-img{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  border: 2px solid grey;
+  border-radius: 5px;
+  overflow: auto;
+}
+.food-image{
+  width: 100%;
+}
+.nutrient{
+  width: 50%;
+  padding: 10px;
+}
+.track-control{
+  display: flex;
+  width: 100%;
+  column-gap: 2%;
+}
+.track-container > .inp{
+  width: 68%;
+}
+.track-control > .btn{
+  width: 30%;
+}
+.diet-container{
+  align-items: flex-start;
+  row-gap: 20px;
+  flex-direction: column;
+}
+.item{
+  width: 100%;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+ul{
+  display: flex;
+  column-gap: 20%;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
